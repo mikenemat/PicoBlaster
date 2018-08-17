@@ -7,7 +7,7 @@ Lutron has dozens if not hundreds of devices compatible with the Pico that are a
 
 Can be used to control RadioRA2 dimmers, PowPaks, and any other device compatible with the Pico. The pico back case needs to be removed for the modifications, but the front face and original functionality remain unaffected.
 
-Hardware:
+**Hardware**
 
 * Pico Keypad (there are different versions - tested with SI4010 IC model with ON/OFF/DIM UP/DIM/DOWN/FAV buttons)
 * ESP8266 Module
@@ -19,21 +19,21 @@ Hardware:
 * GPIO15 ESP = DIM UP = SI4010 PIN 8/GPIO6
 * GPIOs are pulled low to trigger buttons. Suspect we should add some resistors in series so that it is safer if the manual buttons on the Pico are used at the same time the GPIOs are pulled high by the ESP. 
 
-Software:
+**Software**
 
 WifiManager + fauxmoESP + FauxmoESP fork + Custom Sketch. FauxmoESP 3 has some weird bugs that crash the ESP on ESP Core 2.4.0
 
-Working well:
+**Working well**
 
 ON/OFF Functionality
 
-Working, kind of:
+**Working, maybe**
 
 Dimming - because the Pico does not know the state of the target device, it has to either turn it on fully or turn it off fully, and then simulate holding DIM UP / DIM DOWN for a length of time. This works quite well for lighting dimmers, but could be dangerous for things like Shades/Blinds. 
 
 Watchdog functionality - if the ESP crashes, the watchdog does not reliably resume the firmware. This is very rare but needs fixing.
 
-Not working:
+**Not working**
 
 Customizable name + dimming parameters as a part of wifimanager config
 
