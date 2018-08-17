@@ -5,7 +5,7 @@ The PicoBlaster is a hardware + software project to interface a Pico Keypad with
 
 Lutron has dozens if not hundreds of devices compatible with the Pico that are artificially forbidden from communicating with the Lutron Smart Bridge Pro. They want you to buy identical hardware with a fancy label like RadioRA2 and pay $$$$ for an installer. Lame.  Instead, buy the hardware on Ebay, pair it with a Pico remote, and interface it to a ESP8266.
 
-Can be used to control RadioRA2 dimmers, PowPaks, and any other device compatible with the Pico
+Can be used to control RadioRA2 dimmers, PowPaks, and any other device compatible with the Pico. The pico back case needs to be removed for the modifications, but the front face and original functionality remain unaffected.
 
 Hardware:
 
@@ -17,6 +17,7 @@ Hardware:
 * GPIO14 ESP = OFF = SI4010 PIN 10/GPIO4
 * GPIO13 ESP = DIM DOWN = SI4010 PIN 14/GPIO8
 * GPIO15 ESP = DIM UP = SI4010 PIN 8/GPIO6
+* GPIOs are pulled low to trigger buttons. Suspect we should add some resistors in series so that it is safer if the manual buttons on the Pico are used at the same time the GPIOs are pulled high by the ESP. 
 
 Software:
 
