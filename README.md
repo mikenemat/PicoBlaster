@@ -53,3 +53,5 @@ Si4010 datasheet: https://www.silabs.com/documents/public/data-sheets/Si4010.pdf
 **Future work and better ideas**
 
 Firmware tampering or SPI Man-in-the-middle TI CC1150 based devices to masquerade as Caseta dimmers. Stay tuned.
+
+Try to gain access to the UART on the SI4010 chip.
