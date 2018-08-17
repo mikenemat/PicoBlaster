@@ -46,3 +46,7 @@ Pico teardown: https://www.allaboutcircuits.com/news/teardown-tuesday-lutron-cas
 Pico reverse engineering: https://hackaday.io/project/2291-integrated-room-sunrise-simulator/log/7223-the-wireless-interface
 
 Si4010 datasheet: https://www.silabs.com/documents/public/data-sheets/Si4010.pdf
+
+**Future work**:
+
+Firmware tampering or SPI Man-in-the-middle TI CC1150 based devices to masquerade as Caseta dimmers. Stay tuned.
