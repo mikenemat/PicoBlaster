@@ -9,8 +9,8 @@ Can be used to control RadioRA2 dimmers, PowPaks, and any other device compatibl
 
 **Hardware**
 
-* Pico Keypad (there are different versions - tested with SI4010 IC model with ON/OFF/DIM UP/DIM/DOWN/FAV buttons)
-* ESP8266 Module
+* Pico Keypad (there are different versions - tested with SI4010 IC model with ON/OFF/DIM UP/DIM/DOWN/FAV buttons commonly sold at Home Depot)
+* ESP8266 Module (Tested with Adafruit Feather Huzzah ESP8266)
 * Connect ESP8266 3.3V and GND Pico battery + and - terminals (remove battery first)
 * Connect GPIOs to the SI4010 chip in the Pico as follows:
 * GPIO12 ESP = ON = SI4010 PIN 12/GPIO2
