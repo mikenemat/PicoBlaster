@@ -30,3 +30,11 @@ ON/OFF Functionality
 Working, kind of:
 
 Dimming - because the Pico does not know the state of the target device, it has to either turn it on fully or turn it off fully, and then simulate holding DIM UP / DIM DOWN for a length of time. This works quite well for lighting dimmers, but could be dangerous for things like Shades/Blinds. 
+
+Watchdog functionality - if the ESP crashes, the watchdog does not reliably resume the firmware. This is very rare but needs fixing.
+
+Not working:
+
+Customizable name + dimming parameters as a part of wifimanager config
+
+WifiManager reset button
