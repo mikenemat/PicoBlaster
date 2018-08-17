@@ -41,6 +41,8 @@ WifiManager reset button
 
 **References**
 
-https://www.allaboutcircuits.com/news/teardown-tuesday-lutron-caseta-wireless-remote/
+Pico teardown: https://www.allaboutcircuits.com/news/teardown-tuesday-lutron-caseta-wireless-remote/
 
-https://hackaday.io/project/2291-integrated-room-sunrise-simulator/log/7223-the-wireless-interface
+Pico reverse engineering: https://hackaday.io/project/2291-integrated-room-sunrise-simulator/log/7223-the-wireless-interface
+
+Si4010 datasheet: https://www.silabs.com/documents/public/data-sheets/Si4010.pdf
