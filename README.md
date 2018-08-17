@@ -29,7 +29,7 @@ ON/OFF Functionality
 
 **Working, maybe**
 
-Dimming - because the Pico does not know the state of the target device, it has to either turn it on fully or turn it off fully, and then simulate holding DIM UP / DIM DOWN for a length of time. This works quite well for lighting dimmers, but could be dangerous for things like Shades/Blinds. 
+Dimming - because the Pico does not know the state of the target device, it has to either turn it on fully or turn it off fully, and then simulate holding DIM UP / DIM DOWN for a length of time. This works quite well for lighting dimmers, but could be dangerous for things like Shades/Blinds. If you are **exclusively** using the PicoBlaster, remembering the state is trivial. However, I assume you are using local control and/or additional Picos so this is not enabled. Perhaps this can be implemented as an optional feature later.
 
 Watchdog functionality - if the ESP crashes, the watchdog does not reliably resume the firmware. This is very rare but needs fixing.
 
