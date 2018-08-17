@@ -40,6 +40,8 @@ Customizable name + dimming parameters as a part of wifimanager config
 
 WifiManager reset button
 
+Trigger Pico pairing function from ESP
+
 **References**
 
 Pico teardown: https://www.allaboutcircuits.com/news/teardown-tuesday-lutron-caseta-wireless-remote/
@@ -48,6 +50,6 @@ Pico reverse engineering: https://hackaday.io/project/2291-integrated-room-sunri
 
 Si4010 datasheet: https://www.silabs.com/documents/public/data-sheets/Si4010.pdf
 
-**Future work**:
+**Future work / Better ideas **:
 
 Firmware tampering or SPI Man-in-the-middle TI CC1150 based devices to masquerade as Caseta dimmers. Stay tuned.
