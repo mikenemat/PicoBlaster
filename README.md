@@ -38,3 +38,7 @@ Watchdog functionality - if the ESP crashes, the watchdog does not reliably resu
 Customizable name + dimming parameters as a part of wifimanager config
 
 WifiManager reset button
+
+**References**
+https://www.allaboutcircuits.com/news/teardown-tuesday-lutron-caseta-wireless-remote/
+https://hackaday.io/project/2291-integrated-room-sunrise-simulator/log/7223-the-wireless-interface
