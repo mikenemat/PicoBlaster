@@ -1,5 +1,5 @@
 # PicoBlaster
-Lutron makes amazing lighting control hardware, but their artificial limitations on their Caseta line of products is horribly unfriendly to consumers.
+Lutron makes amazing lighting control hardware, but their artificial limitations on their Caseta line of products is horribly unfriendly to consumers. Everything speaks the same RF protocol, but they've crippled the Caseta Smart Hub to disallow any non-Caseta branded hardware.
 
 The PicoBlaster is a hardware + software project to interface a Pico Keypad with a ESP8266 module, such that any Lutron device compatible with the Pico can be controlled over wifi.
 
